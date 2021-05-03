@@ -1,0 +1,48 @@
+<html>
+	<head>
+		<title>Dublin Coffee Shop</title>
+		<link rel="stylesheet" href="css/style.css" />
+        <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+	</head>
+	<body>
+		<nav>
+			<ul>
+				<a href="index.html">
+					<li>HOME</li>
+				</a>
+				<a href="menu.html">
+					<li>MENU</li>
+				</a>
+				<a href="contact.html">
+					<li>CONTACT</li>
+				</a>
+				<a href="about.html">
+					<li>ABOUT</li>
+				</a>
+			</ul>
+		</nav>
+		<div class="main">
+			<p class="title">Your Order</p>
+			<table class="cart">
+				<tr>
+					<td>Name</td>
+					<td>Quantity</td>
+					<td>Price</td>
+				</tr>
+				<tr>
+					<td id="name"></td>
+					<td id="count">
+                        <input type="number" id="countinput" value="1" min="1" onchange="updatePrice()" />
+                    </td>
+					<td id="price"></td>
+				</tr>
+				<tr>
+					<td></td>
+					<td>Total:</td>
+					<td id="total"></td>
+				</tr>
+			</table>
+		</div>
+		<script src="js/cart.js"></script>
+	</body>
+</html>

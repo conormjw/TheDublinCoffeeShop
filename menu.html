@@ -1,0 +1,65 @@
+<html>
+	<head>
+		<title>Dublin Coffee Shop</title>
+		<link rel="stylesheet" href="css/style.css" />
+		<script src="js/order.js"></script>
+	</head>
+	<body>
+		<nav>
+			<ul>
+				<a href="index.html">
+					<li>HOME</li>
+				</a>
+				<a href="menu.html">
+					<li>MENU</li>
+				</a>
+				<a href="contact.html">
+					<li>CONTACT</li>
+				</a>
+				<a href="about.html">
+					<li>ABOUT</li>
+				</a>
+			</ul>
+		</nav>
+		<div class="main">
+			<p class="title menu-title">Drinks</p>
+			<table class="drinks-table">
+				<tr>
+					<td id="7-name">Americano</td>
+					<td id="7-price">2.00</td>
+					<td><button class="order" onclick="order(7)" id="7">Buy Now</button></td>
+				</tr>
+				<tr>
+					<td id="6-name">Cappucino</td>
+					<td id="6-price">2.50</td>
+					<td><button class="order" onclick="order(6)" id="6">Buy Now</button></td>
+				</tr>
+				
+				<tr>
+					<td id="5-name">Latte</td>
+					<td id="5-price">2.50</td>
+					<td><button class="order" onclick="order(5)" id="5">Buy Now</button></td>
+				</tr>
+			
+				<tr>
+					<td id="3-name">Tea</td>
+					<td id="3-price">1.50</td>
+					<td><button class="order" onclick="order(3)" id="3">Buy Now</button></td>
+				</tr>
+			</table>
+			<p class="title menu-title">Food</p>
+			<table class="drinks-table">
+				<tr>
+					<td id="8-name">Full Irish Breakfast</td>
+					<td id="8-price">8.95</td>
+					<td><button class="order" onclick="order(8)" id="8">Buy Now</button></td>
+				</tr>
+				<tr>
+					<td id="10-name">French Toast</td>
+					<td id="10-price">6.50</td>
+					<td><button class="order" onclick="order(10)" id="10">Buy Now</button></td>
+				</tr>
+			</table>
+		</div>
+	</body>
+</html>

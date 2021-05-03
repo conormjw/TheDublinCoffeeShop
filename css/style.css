@@ -1,0 +1,125 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	font-family: "Work Sans", sans-serif;
+	background-color: rgb(36, 36, 36);
+}
+
+a {
+	text-decoration: none;
+	color: black;
+}
+
+nav {
+	background-color: rgb(5, 233, 165);
+	display: inline-block;
+	width: 100%;
+}
+
+nav a:hover {
+	color: rgb(238, 143, 0);
+}
+
+nav ul {
+	list-style: none;
+}
+
+nav ul li {
+	display: inline-block;
+	padding-left: 30px;
+	padding-right: 30px;
+	padding-top: 15px;
+	padding-bottom: 15px;
+}
+
+.main {
+	color: white;
+	background-image: url("../images/bg.jpg");
+	background-size: cover;
+	/* background-color: red; */
+	padding-top: 30px;
+	padding-left: 30px;
+	height: 100vh;
+}
+
+.title {
+	font-size: 2rem;
+	margin-bottom: 10px;
+    margin-right: 30px;
+}
+.subtitle {
+	font-size: 1.2rem;
+}
+
+.menu-button {
+	background-color: rgb(5, 233, 165);
+	font-size: 1.2rem;
+	padding: 10px;
+	border: none;
+	margin-top: 10px;
+	cursor: pointer;
+}
+
+.description {
+	margin-top: 20px;
+	width: 50%;
+	line-height: 2;
+}
+
+.contact-table {
+	margin-top: 20px;
+	color: white;
+}
+
+.contact-table td {
+    padding-right: 30px;
+    padding-bottom: 10px;
+}
+
+.menu-title{
+    border-bottom: 1px solid white;
+    /* background-color :red; */
+    padding-bottom: 5px;
+}
+
+.drinks-table{
+    color: white;
+    padding-top: 10px;
+    margin-bottom: 20px;
+    margin-left: 20px;
+    font-size: 1.2rem;
+}
+
+.drinks-table td{
+    padding-top: 10px;
+    padding-bottom: 10px;
+	padding-right: 20px;
+}
+
+.subsection{
+    font-weight: bold;
+    font-size: 1.1rem;
+}
+
+.order-button, .order{
+	margin-left: 20px;
+	padding: 5px 10px;
+	background-color: rgb(5, 233, 165);
+	border: none;
+	cursor: pointer;
+}
+.cart{
+	color: #fff;
+	margin-top: 20px;
+	margin-bottom: 30px;
+	margin-left: 30px;
+	margin-right: 30px;
+}
+
+.cart td{
+	padding-right: 20px;
+	padding-top: 10px;
+}
